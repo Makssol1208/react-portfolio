@@ -11,7 +11,7 @@ const Footer  = () => {
       <div className="container">
         <div className="footer__wrapper">
           <ul className="social">
-            <li className="social__item"><a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/maksym_soloviov/?next=%2F"><img src={instagram} alt="Instagram" /></a></li>
+            <li className="social__item"><a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/maksym_soloviov/"><img src={instagram} alt="Instagram" /></a></li>
             <li className="social__item"><a rel="noopener noreferrer" target="_blank" href="https://twitter.com/"><img src={twitter} alt="Twitter" /></a></li>
             <li className="social__item"><a rel="noopener noreferrer" target="_blank" href="https://github.com/Makssol1208"><img src={git} alt="GitHub" /></a></li>
             <li className="social__item"><a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/maxim-solovyov/"><img src={linkedin} alt="Linkedin" /></a></li>
