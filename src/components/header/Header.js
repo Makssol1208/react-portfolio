@@ -1,4 +1,5 @@
-import"./style.css";
+import "./style.css";
+import myFile from '../../../myFile.pdf';
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
         </h1>
         <div className="header__text">
           <p>with passion for learning and creating.</p>
-          <a href="#!" className="btn">Download CV</a>
+          <a href={myFile} className="btn" download={myFile.pdf} target="_blank">Download CV</a>
         </div>
       </div>
   </header>
